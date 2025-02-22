@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt-dist-upgrade -y
+//install dkms
+sudo apt-get install dkms
+//rtl8812au drivers
+git clone https://github.com/aircrack-ng/rtl8812au
+//cd into new folder
+cd rtl8812au
+//make files
+make
+sudo make install
+//reboot
